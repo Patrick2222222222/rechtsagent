@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+# requirements.txt - Erforderliche Python-Pakete für den IRI® Legal Agent
+
+# Grundlegende Pakete
+requests==2.31.0
+beautifulsoup4==4.12.2
+python-dotenv==1.0.0
+Flask==3.1.0
+gunicorn==23.0.0
+gevent==25.4.1
+Werkzeug==3.1.3
+
+# Für Screenshot-Erstellung
+Pillow==10.0.0
+
+# Für Monday.com-Integration
+monday==1.3.0
+
+# Für E-Mail-Benachrichtigungen (optional)
+sendgrid==6.10.0
+
+# Für Web-Scraping
+selenium==4.10.0
+webdriver-manager==3.8.6
+
+# Für Datenverarbeitung
+pandas==2.0.3
